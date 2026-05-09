@@ -82,7 +82,9 @@ Before starting the implementation of this plugin I intended to use WLED's MQTT 
 | 0.14.3  | ✅ |  |
 | 0.14.4  | ✅ |  |
 | 0.15.0  | ✅ |  |
+| 0.15.4  | ✅ |  |
 
 ## Thanks to the contributors
 
 - @LeLunZ for adding live mode support
+- @smitty078 for adding CCT support

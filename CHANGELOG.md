@@ -1,10 +1,11 @@
-## 0.0.22 (2025-09-13)
+## 0.0.23 (2026-05-09)
 
 ### Features
+- **CCT Support**: Adds CCT support for white or RGB lights
 
 ### Improvements
-- **Logging**: less verbose logging
 
 ### Bugfixes
+- **Brightness**: Brightness is now correctly set
 
 ### Known issues
