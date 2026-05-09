@@ -306,7 +306,7 @@ export class WledWsPlatformAccessory {
     const { r, g, b } = hsvToRgb(
       (value as number) / 360,
       this.ledState.Saturation / 100,
-      this.ledState.Brightness / 100,
+      1.0,
     );
 
     if (this.loggingEnabled){
@@ -347,7 +347,7 @@ export class WledWsPlatformAccessory {
     const { r, g, b } = hsvToRgb(
       this.ledState.Hue / 360,
       (value as number) / 100,
-      this.ledState.Brightness / 100,
+      1.0,
     );
 
     if (this.loggingEnabled){
